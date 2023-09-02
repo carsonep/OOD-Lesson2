@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "controller.App",
+            "vmArgs": "-ea",
+            "projectName": "Lesson 2_e967769e"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CoinDispenserTester",
+            "request": "launch",
+            "mainClass": "test.CoinDispenserTester",
+            "vmArgs": "-ea",
+            "projectName": "Lesson 2_e967769e"
+        },
+        {
+            "type": "java",
+            "name": "Ref",
+            "request": "launch",
+            "mainClass": "test.Ref",
+            "projectName": "Lesson 2_e967769e"
+        },
+        {
+            "type": "java",
+            "name": "StaticvsInstance",
+            "request": "launch",
+            "mainClass": "test.StaticvsInstance",
+            "projectName": "Lesson 2_e967769e"
+        },
+        {
+            "type": "java",
+            "name": "StringTest",
+            "request": "launch",
+            "mainClass": "test.StringTest",
+            "projectName": "Lesson 2_e967769e"
+        }
+    ]
+}
